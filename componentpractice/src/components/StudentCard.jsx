@@ -1,12 +1,13 @@
-function StudentCard({ Name,Age,Course,Marks,Grade,Status}){
+function StudentCard({ id,Name,age,course,marks,grade,Result }){
     return (
         <>
         <h3>{Name}</h3>
-        <p>Age:{Age}</p>
-        <p>Course:{Course}</p>
-        <p>Marks:{Marks}</p>
-        <p>Grade:{Grade}</p>
-        <p>{Status?"Passed":"Failed"}</p>
+        <p>{id}</p>
+        <p>age:{age}</p>
+        <p>course:{course}</p>
+        <p>marks:{marks}</p>
+        <p>grade:{grade}</p>
+        <p>{Result?"Passed":"Failed"}</p>
         </>
     )
 }

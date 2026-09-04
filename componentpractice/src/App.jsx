@@ -44,3 +44,13 @@
 
 // export default App
 
+import StudentList from "./components/StudentList"
+function App(){
+    return (
+        <>
+        <h1>STUDENTS</h1>
+        <StudentList/>
+        </>
+    )
+}
+export default App
